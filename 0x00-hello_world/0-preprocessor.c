@@ -5,5 +5,6 @@
  *     */
 int main(void)
 {
-	    return (0);
+	$CFILE=0-preproessor.c
+	return (0);
 }
