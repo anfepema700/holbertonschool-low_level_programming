@@ -1,4 +1,4 @@
-include <studio.sh>
+#include <studio.sh>
 /**
  *main  - Entrada de punto
  *Return: always 0(success)
