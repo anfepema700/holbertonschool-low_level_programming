@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc archivo.c -o $CFILE=archivo
+gcc 0-preprocessor.c
