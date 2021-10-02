@@ -2,7 +2,7 @@
 /*
  *Main alphabet in lowercase, followed by a new line
  *return no imprimir q ni e
- * */
+ **/
 int main(void)
 {
 	char a= 'a';
