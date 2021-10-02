@@ -1,4 +1,4 @@
-#include <stdio.sh>
+#include <stdio.h>
 /*
  * main positivo o negativo
  * return resultado de validación. 
