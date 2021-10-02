@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	int n=rand()- RAND_MAX/2;
+	int n=rand(15); 
 	if(n>0){
 	printf("El número es positivo:  %d",n);
 	}else if (n==0){
