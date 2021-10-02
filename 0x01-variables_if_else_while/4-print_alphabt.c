@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- *Main alphabet in lowercase, followed by a new line
+ **main alphabet in lowercase, followed by a new line
  *return no imprimir q ni e
 **/
 int main(void)
