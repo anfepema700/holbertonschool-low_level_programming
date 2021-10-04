@@ -2,7 +2,7 @@
 /**
  **main - print a _putchar
  **
- **Return: _putchar \n
+ **Return: 0 on succes
  **/
 
 
