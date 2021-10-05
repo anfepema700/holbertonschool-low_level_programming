@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- **main - putchar
- **return: 0 success
+ **main - putchar create file
+ **
+ **Return: 0 success
  **/
 
 int main(void)
