@@ -1,11 +1,9 @@
 #include "main.h"
 
-
 /**
-**main - Write a function that prints the alphabet, in lowercase, followed by a new line
-**
-**Return_ 0 success
-**/
+*print_alphabet - Write a function that prints the alphabet
+*Return: 0 success
+*/
 
 void print_alphabet(void)
 {
@@ -16,7 +14,7 @@ void print_alphabet(void)
 	while (letter <= 'z')
 	{
 		_putchar(letter);
-		letter++;	
+		letter++;
 	}
 		_putchar('\n');
 }
