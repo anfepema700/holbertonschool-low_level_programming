@@ -1,21 +1,26 @@
-#include <stdio.h>
+#include "main.h"
 
-int main(void)
+/**
+*print_sign - validate if number is positive negative zero
+*@n: character check
+*Return: 0 success + positive - negative
+**/
+
+int print_sign(int n)
 {
-	int val=1;
-
-	if(val<0)
+	if (n < 0)
 	{
-		putchar('-');
+		_putchar('-');
+		return (-1);
 	}
-	else if(val>0)
+	else if (n > 0)
 	{
-		putchar('+');
+		_putchar('+');
+		return (1);
 	}
 	else
 	{
-	putchar('0');
+		_putchar('0');
+		return (0);
 	}
-	putchar('\n');
-	return (0);
 }
