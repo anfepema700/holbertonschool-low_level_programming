@@ -1,31 +1,27 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- **main - Write a function that prints the alphabet, in lowercase, followed by a new line
+ **print_alphabet_x10 - Write a function that prints the alphabet
  **
  **Return_ 0 success
  **/
 
+void print_alphabet_x10(void)
+{
 
-int alphabet_ten(){
+	char letter;
+	int a;
 
-	char letter='a';
-	int a=1;
-	
-	
-	while ( letter<='z'){
-		putchar(letter);
-		letter++;	
-	};
-	putchar('\n');
-	return letter;
-}
-
-
-int main (void){
-
-	for (int a=1;a<=10;a++){
-	alphabet_ten();
+	a = 0;
+	while (a < 10)
+	{
+		letter = 'a';
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
+		_putchar('\n');
+		a++;
 	}
 }
-
