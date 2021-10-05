@@ -7,10 +7,8 @@
  **Return: 0 on succes
  **/
 
-
-
-int main ()
-{
-	_putchar('\n');
-	return (0);
+int _putchar(char c)
+{		
+		c='-';
+		return (write(1, &c, 1));
 }
