@@ -1,15 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- **main - last digit 
- **Returns: 0 success
- **/
+**print_last_digit - last digit for n
+**@n: character for check
+**Return: 0 success n %10
+**/
 
-int main(void)
+int print_last_digit(int n)
 {
-	int num=5;
-	int LastDigit= num % 10;
-
-	printf("%d", LastDigit);
-	return (0);
+	return (n % 10);
 }
