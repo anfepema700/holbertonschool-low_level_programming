@@ -1,23 +1,11 @@
-#include <stdio.h>
-#include <ctype.h>
+#include "main.h"
 
 /**
- **main - validate isalpha and 1 for true 0 for false
- **Returns: 0 success
+ ** _isalpha - checks for alphabetic character
+ ** @c: the character to be checked
+ ** Return: 1 if c is a letter, 0 otherwise
  **/
-
-int main(void)
-{	
-	char ch='c';
-
-	if(isalpha(ch))
-	{
-		putchar('1');
-	}
-	else 
-	{
-		putchar('0');
-	}
-	putchar('\n');
-	return (0);
+int _isalpha(int c)
+{
+		return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
