@@ -6,7 +6,7 @@
  **/
 
 
-int alphabet(){
+int print_alphabet(){
 
 	char letter='a';
 
