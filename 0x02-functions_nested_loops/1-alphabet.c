@@ -7,16 +7,15 @@
  **Return_ 0 success
  **/
 
-
 void print_alphabet(void)
 {
 
-	char letter='a';
+	char letter;
+	letter = 'a';
 
 	while ( letter<='z'){
-		putchar(letter);
+		_putchar(letter);
 		letter++;	
 	}
-	putchar('\n');
-	return letter;
+	_putchar('\n');
 }
