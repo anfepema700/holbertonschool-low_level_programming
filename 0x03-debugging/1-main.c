@@ -19,6 +19,6 @@ int main(void)
         }
         
         printf("Infinite loop avoided! \\o/\n");
-        /*falta i++ para que el ciclo while termine*/
+        printf("Infinite loop incoming :(");
         return (0);
 }
