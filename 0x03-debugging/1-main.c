@@ -17,8 +17,8 @@ int main(void)
         {
                 putchar(i);
         }
-         /*Infinite loop incoming :( variable i don´t increment*/
-        printf("Infinite loop avoided!\n");
-
+        
+        printf("Infinite loop avoided! \\o/\n");
+        /*falta i++ para que el ciclo while termine*/
         return (0);
 }
