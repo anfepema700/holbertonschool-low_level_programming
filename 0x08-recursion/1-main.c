@@ -1,13 +1,12 @@
-void _print_rev_recursion(char *);
+#include "main.h"
 
 /**
- *  * main - check the code for Holberton School students.
+ *  * main - check the code
  *   *
  *    * Return: Always 0.
  *     */
 int main(void)
 {
-		_print_rev_recursion("\nFirst, solve the problem. Then, write the code");
-			return (0);
+	    _print_rev_recursion("\nColton Walker");
+	        return (0);
 }
-
