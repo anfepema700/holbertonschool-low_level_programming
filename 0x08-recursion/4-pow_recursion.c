@@ -10,8 +10,6 @@
 
 int _pow_recursion(int x, int y)
 {
-	int potencia;
-
 	if (y < 0)
 	{
 	return (-1);
@@ -22,7 +20,7 @@ int _pow_recursion(int x, int y)
 	}
 	else
 	{
-		potencia = x * _pow_recursion(x, y - 1);
+	return (x * _pow_recursion(x, y - 1));
 	}
-	return (potencia);
+	return (x);
 }
