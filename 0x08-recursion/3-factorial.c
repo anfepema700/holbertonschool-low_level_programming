@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
-*factorial - factorial for a number.
+*factorial - give the factorial for a number.
 *@n: character with number operated
 *
 *Return: 0 success -1 for fail
