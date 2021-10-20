@@ -7,7 +7,7 @@
 *Return: 0 success -1 for fail
 **/
 
-int factorial(int n)
+int factorial(int n) /*function return a factorial that number n*/
 {
 	if (n < 0)
 	{
