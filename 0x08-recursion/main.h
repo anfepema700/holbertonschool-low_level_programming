@@ -2,6 +2,8 @@
 #define HEADER_FILE
 #include <stdio.h>
 
+
+int funauxprime(int prime, int primediv);
 int funaux(int n, int s);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
