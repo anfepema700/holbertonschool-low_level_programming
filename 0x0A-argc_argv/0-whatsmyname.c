@@ -12,8 +12,8 @@ int main(int argc, char *argv[] )
 {
 	if (argc == 1)
 	{
-		_putchar(argv[0]);
-		//printf("Valor argv[0]: %s\n",argv[0]);
+		
+		printf("%s\n",argv[0]);
 	}
 	return (0);
 }
