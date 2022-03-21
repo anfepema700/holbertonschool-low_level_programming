@@ -1,0 +1,7 @@
+#create a useful makefile
+CC = gcc
+SRC = main.c school.c
+OBJ = school.o
+NAME = school
+all:$(OBJ)
+	$(CC) $(SRC) -O $(OBJ)
